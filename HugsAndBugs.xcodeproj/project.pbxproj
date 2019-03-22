@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AF2628E908BE71AA7065455 /* Pods_HugsAndBugs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683F9A31125C2992A7E274AB /* Pods_HugsAndBugs.framework */; };
+		BEEBE56E092157E8DBC4C391 /* Pods_HugsAndBugsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DD17603875E97EA45746A2 /* Pods_HugsAndBugsTests.framework */; };
+		C83B542822432C2100A9FBF7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83B542722432C2100A9FBF7 /* HealthKit.framework */; };
+		C83B542A22432DC100A9FBF7 /* ManageHealthKitTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B542922432DC100A9FBF7 /* ManageHealthKitTypes.swift */; };
 		C88109B02241F7070037BDB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109AF2241F7070037BDB9 /* AppDelegate.swift */; };
-		C88109B22241F7070037BDB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109B12241F7070037BDB9 /* ViewController.swift */; };
+		C88109B22241F7070037BDB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109B12241F7070037BDB9 /* LoginViewController.swift */; };
 		C88109B52241F7070037BDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88109B32241F7070037BDB9 /* Main.storyboard */; };
 		C88109B82241F7070037BDB9 /* HugsAndBugs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C88109B62241F7070037BDB9 /* HugsAndBugs.xcdatamodeld */; };
 		C88109BA2241F7100037BDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88109B92241F7100037BDB9 /* Assets.xcassets */; };
 		C88109BD2241F7100037BDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88109BB2241F7100037BDB9 /* LaunchScreen.storyboard */; };
 		C88109C82241F7100037BDB9 /* HugsAndBugsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109C72241F7100037BDB9 /* HugsAndBugsTests.swift */; };
+		C88109DB2242060F0037BDB9 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109DA2242060F0037BDB9 /* RegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		683F9A31125C2992A7E274AB /* Pods_HugsAndBugs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HugsAndBugs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6F5DBE6314615B184966A3 /* Pods-HugsAndBugsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugsTests.release.xcconfig"; path = "Target Support Files/Pods-HugsAndBugsTests/Pods-HugsAndBugsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C83B542722432C2100A9FBF7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C83B542922432DC100A9FBF7 /* ManageHealthKitTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageHealthKitTypes.swift; sourceTree = "<group>"; };
 		C88109AC2241F7070037BDB9 /* HugsAndBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HugsAndBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88109AF2241F7070037BDB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C88109B12241F7070037BDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88109B12241F7070037BDB9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C88109B42241F7070037BDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C88109B72241F7070037BDB9 /* HugsAndBugs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HugsAndBugs.xcdatamodel; sourceTree = "<group>"; };
 		C88109B92241F7100037BDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +47,12 @@
 		C88109C32241F7100037BDB9 /* HugsAndBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HugsAndBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88109C72241F7100037BDB9 /* HugsAndBugsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HugsAndBugsTests.swift; sourceTree = "<group>"; };
 		C88109C92241F7100037BDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88109D22241F7240037BDB9 /* HugsAndBugs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HugsAndBugs.entitlements; sourceTree = "<group>"; };
+		C88109DA2242060F0037BDB9 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		E00EB98469BD6FAF8C8DC177 /* Pods-HugsAndBugs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugs.release.xcconfig"; path = "Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs.release.xcconfig"; sourceTree = "<group>"; };
+		E32430CD84922211631C7F0D /* Pods-HugsAndBugs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugs.debug.xcconfig"; path = "Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs.debug.xcconfig"; sourceTree = "<group>"; };
+		EA16ED568C46611CA3902507 /* Pods-HugsAndBugsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugsTests.debug.xcconfig"; path = "Target Support Files/Pods-HugsAndBugsTests/Pods-HugsAndBugsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5DD17603875E97EA45746A2 /* Pods_HugsAndBugsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HugsAndBugsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83B542822432C2100A9FBF7 /* HealthKit.framework in Frameworks */,
+				4AF2628E908BE71AA7065455 /* Pods_HugsAndBugs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEBE56E092157E8DBC4C391 /* Pods_HugsAndBugsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +82,8 @@
 				C88109AE2241F7070037BDB9 /* HugsAndBugs */,
 				C88109C62241F7100037BDB9 /* HugsAndBugsTests */,
 				C88109AD2241F7070037BDB9 /* Products */,
+				C88109D32241F7240037BDB9 /* Frameworks */,
+				ED8D66A19EF65609A54B44A7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +99,16 @@
 		C88109AE2241F7070037BDB9 /* HugsAndBugs */ = {
 			isa = PBXGroup;
 			children = (
+				C88109D22241F7240037BDB9 /* HugsAndBugs.entitlements */,
 				C88109AF2241F7070037BDB9 /* AppDelegate.swift */,
-				C88109B12241F7070037BDB9 /* ViewController.swift */,
+				C88109B12241F7070037BDB9 /* LoginViewController.swift */,
 				C88109B32241F7070037BDB9 /* Main.storyboard */,
 				C88109B92241F7100037BDB9 /* Assets.xcassets */,
 				C88109BB2241F7100037BDB9 /* LaunchScreen.storyboard */,
 				C88109BE2241F7100037BDB9 /* Info.plist */,
 				C88109B62241F7070037BDB9 /* HugsAndBugs.xcdatamodeld */,
+				C88109DA2242060F0037BDB9 /* RegistrationTableViewController.swift */,
+				C83B542922432DC100A9FBF7 /* ManageHealthKitTypes.swift */,
 			);
 			path = HugsAndBugs;
 			sourceTree = "<group>";
@@ -99,6 +122,28 @@
 			path = HugsAndBugsTests;
 			sourceTree = "<group>";
 		};
+		C88109D32241F7240037BDB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C83B542722432C2100A9FBF7 /* HealthKit.framework */,
+				683F9A31125C2992A7E274AB /* Pods_HugsAndBugs.framework */,
+				F5DD17603875E97EA45746A2 /* Pods_HugsAndBugsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8D66A19EF65609A54B44A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32430CD84922211631C7F0D /* Pods-HugsAndBugs.debug.xcconfig */,
+				E00EB98469BD6FAF8C8DC177 /* Pods-HugsAndBugs.release.xcconfig */,
+				EA16ED568C46611CA3902507 /* Pods-HugsAndBugsTests.debug.xcconfig */,
+				BC6F5DBE6314615B184966A3 /* Pods-HugsAndBugsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88109CC2241F7100037BDB9 /* Build configuration list for PBXNativeTarget "HugsAndBugs" */;
 			buildPhases = (
+				68FB81767B4C3CED32F42673 /* [CP] Check Pods Manifest.lock */,
 				C88109A82241F7070037BDB9 /* Sources */,
 				C88109A92241F7070037BDB9 /* Frameworks */,
 				C88109AA2241F7070037BDB9 /* Resources */,
+				D2989BCE72CE53E0285A4497 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88109CF2241F7100037BDB9 /* Build configuration list for PBXNativeTarget "HugsAndBugsTests" */;
 			buildPhases = (
+				17CCFBE0F99A7DBFC698C395 /* [CP] Check Pods Manifest.lock */,
 				C88109BF2241F7100037BDB9 /* Sources */,
 				C88109C02241F7100037BDB9 /* Frameworks */,
 				C88109C12241F7100037BDB9 /* Resources */,
@@ -149,6 +197,14 @@
 				TargetAttributes = {
 					C88109AB2241F7070037BDB9 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
 					};
 					C88109C22241F7100037BDB9 = {
 						CreatedOnToolsVersion = 10.1;
@@ -195,14 +251,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17CCFBE0F99A7DBFC698C395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HugsAndBugsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68FB81767B4C3CED32F42673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HugsAndBugs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2989BCE72CE53E0285A4497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SMART/SMART.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMART.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C88109A82241F7070037BDB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C88109B82241F7070037BDB9 /* HugsAndBugs.xcdatamodeld in Sources */,
-				C88109B22241F7070037BDB9 /* ViewController.swift in Sources */,
+				C88109B22241F7070037BDB9 /* LoginViewController.swift in Sources */,
+				C88109DB2242060F0037BDB9 /* RegistrationTableViewController.swift in Sources */,
 				C88109B02241F7070037BDB9 /* AppDelegate.swift in Sources */,
+				C83B542A22432DC100A9FBF7 /* ManageHealthKitTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +489,10 @@
 		};
 		C88109CD2241F7100037BDB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32430CD84922211631C7F0D /* Pods-HugsAndBugs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HugsAndBugs/HugsAndBugs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BU644T4498;
 				INFOPLIST_FILE = HugsAndBugs/Info.plist;
@@ -380,8 +509,10 @@
 		};
 		C88109CE2241F7100037BDB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00EB98469BD6FAF8C8DC177 /* Pods-HugsAndBugs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HugsAndBugs/HugsAndBugs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BU644T4498;
 				INFOPLIST_FILE = HugsAndBugs/Info.plist;
@@ -398,6 +529,7 @@
 		};
 		C88109D02241F7100037BDB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA16ED568C46611CA3902507 /* Pods-HugsAndBugsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +551,7 @@
 		};
 		C88109D12241F7100037BDB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6F5DBE6314615B184966A3 /* Pods-HugsAndBugsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

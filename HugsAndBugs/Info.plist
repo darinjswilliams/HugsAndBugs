@@ -34,6 +34,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Read Acitivity information from HealthKit</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Suggest New workout plan</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Use health records to make medical suggestions</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
