@@ -19,6 +19,9 @@
 		C88109BD2241F7100037BDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88109BB2241F7100037BDB9 /* LaunchScreen.storyboard */; };
 		C88109C82241F7100037BDB9 /* HugsAndBugsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109C72241F7100037BDB9 /* HugsAndBugsTests.swift */; };
 		C88109DB2242060F0037BDB9 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88109DA2242060F0037BDB9 /* RegistrationTableViewController.swift */; };
+		C8C266D22245EC5E009B3D28 /* SMART.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C266D12245EC5E009B3D28 /* SMART.framework */; };
+		C8C266D42245ECF8009B3D28 /* SMART.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C266D32245ECF8009B3D28 /* SMART.framework */; };
+		C8C266D52245ECF8009B3D28 /* SMART.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C8C266D32245ECF8009B3D28 /* SMART.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,20 @@
 			remoteInfo = HugsAndBugs;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8C266D62245ECF8009B3D28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C8C266D52245ECF8009B3D28 /* SMART.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		683F9A31125C2992A7E274AB /* Pods_HugsAndBugs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HugsAndBugs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +66,8 @@
 		C88109C92241F7100037BDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C88109D22241F7240037BDB9 /* HugsAndBugs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HugsAndBugs.entitlements; sourceTree = "<group>"; };
 		C88109DA2242060F0037BDB9 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		C8C266D12245EC5E009B3D28 /* SMART.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SMART.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C266D32245ECF8009B3D28 /* SMART.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SMART.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00EB98469BD6FAF8C8DC177 /* Pods-HugsAndBugs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugs.release.xcconfig"; path = "Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs.release.xcconfig"; sourceTree = "<group>"; };
 		E32430CD84922211631C7F0D /* Pods-HugsAndBugs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugs.debug.xcconfig"; path = "Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs.debug.xcconfig"; sourceTree = "<group>"; };
 		EA16ED568C46611CA3902507 /* Pods-HugsAndBugsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HugsAndBugsTests.debug.xcconfig"; path = "Target Support Files/Pods-HugsAndBugsTests/Pods-HugsAndBugsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C266D22245EC5E009B3D28 /* SMART.framework in Frameworks */,
 				C83B542822432C2100A9FBF7 /* HealthKit.framework in Frameworks */,
+				C8C266D42245ECF8009B3D28 /* SMART.framework in Frameworks */,
 				4AF2628E908BE71AA7065455 /* Pods_HugsAndBugs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +100,7 @@
 		C88109A32241F7070037BDB9 = {
 			isa = PBXGroup;
 			children = (
+				C8C266D32245ECF8009B3D28 /* SMART.framework */,
 				C88109AE2241F7070037BDB9 /* HugsAndBugs */,
 				C88109C62241F7100037BDB9 /* HugsAndBugsTests */,
 				C88109AD2241F7070037BDB9 /* Products */,
@@ -125,6 +147,7 @@
 		C88109D32241F7240037BDB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C8C266D12245EC5E009B3D28 /* SMART.framework */,
 				C83B542722432C2100A9FBF7 /* HealthKit.framework */,
 				683F9A31125C2992A7E274AB /* Pods_HugsAndBugs.framework */,
 				F5DD17603875E97EA45746A2 /* Pods_HugsAndBugsTests.framework */,
@@ -140,7 +163,6 @@
 				EA16ED568C46611CA3902507 /* Pods-HugsAndBugsTests.debug.xcconfig */,
 				BC6F5DBE6314615B184966A3 /* Pods-HugsAndBugsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +178,7 @@
 				C88109A92241F7070037BDB9 /* Frameworks */,
 				C88109AA2241F7070037BDB9 /* Resources */,
 				D2989BCE72CE53E0285A4497 /* [CP] Embed Pods Frameworks */,
+				C8C266D62245ECF8009B3D28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,12 +328,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HugsAndBugs/Pods-HugsAndBugs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SMART/SMART.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMART.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BU644T4498;
 				INFOPLIST_FILE = HugsAndBugs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,6 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BU644T4498;
 				INFOPLIST_FILE = HugsAndBugs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

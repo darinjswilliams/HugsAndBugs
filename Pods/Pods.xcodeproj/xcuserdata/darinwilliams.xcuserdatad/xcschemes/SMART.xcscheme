@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E09A9C823EC817F08FACE2F2A331D962"
+               BlueprintIdentifier = "F0C7F03F8B267448F0029BFF819AF3CB"
                BuildableName = "SMART.framework"
                BlueprintName = "SMART"
                ReferencedContainer = "container:Pods.xcodeproj">

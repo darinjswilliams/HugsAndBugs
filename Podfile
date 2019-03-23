@@ -7,6 +7,7 @@ target 'HugsAndBugs' do
 
   # Pods for HugsAndBugs
     pod 'SMART'
+    pod 'OAuthSwift', '~> 1.2.0'
 
   target 'HugsAndBugsTests' do
     inherit! :search_paths

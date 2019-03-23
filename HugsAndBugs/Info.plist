@@ -11,15 +11,41 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>SMART</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>SMART on FHIR</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>smartapp</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Use health records to make medical suggestions</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Read Acitivity information from HealthKit</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Suggest New workout plan</string>
+	<key>Smart - FHIR</key>
+	<string>SMART</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -34,12 +60,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSHealthShareUsageDescription</key>
-	<string>Read Acitivity information from HealthKit</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>Suggest New workout plan</string>
-	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
-	<string>Use health records to make medical suggestions</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
